@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>纪雷</title>
+</head>
+<body>
+
+</body>
+<center>
+
+    <h2>切换验验证码</h2>
+    <script>
+        function changeImageCode() {
+            document.getElementById('btn').isDisabled=true;
+            document.getElementById('identity').src='code?ts='+new Date().getTime();
+        }
+
+    </script>
+
+    <image src="code" id="identity" onload="btn.disable=false;" style="cursor:pointer; vertical-align: middle"></image>
+    <input type="button" value="看不清，更换验证码" onclick="changeImageCode()" id="btn" style="vertical-align: middle">
+
+</center>
+
+</html>
