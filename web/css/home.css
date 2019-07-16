@@ -1,0 +1,90 @@
+.home_background{
+    background-color: black;
+    height: 50px;
+}
+
+.big_text{
+    text-align: center;
+}
+.logout{
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    text-align: right;
+}
+.logout > a{
+    font-size: 10px;
+    color: blue;
+    line-height: 20px;
+    text-align: right;
+}
+.titlestyle{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.loginstyle{
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    text-align: right;
+}
+.loginstyle > a{
+    color: white;
+}
+
+table
+{
+    border-collapse:collapse;
+    text-align: center;
+    font-size: 20px;
+}
+td{
+    height: 50px;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
+.iframe_aa{
+    width: 1000px;
+    height: 2000px;
+    float: left;
+}
+
+.sushe{
+    align-self: center;
+}
+.input-text{
+    width: 75px;
+    height: 15px;
+}
+.input-text2{
+    width: 150px;
+    height: 15px;
+}
+.table-style{
+    border: 1px;
+}
+.button-style{
+    width: 150px;
+    height: 50px;
+    text-size: 30px;
+    color: white;
+    background-color: black;
+}
+.add-style{
+    text-align: center;
+}
+.submit-style{
+    width: 50px;
+    height: 20px;
+}
+.button-style1{
+    width: 150px;
+    height: 35px;
+    text-size: 40px;
+    color: white;
+    background-color: black;
+}

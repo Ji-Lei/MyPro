@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>请登录</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="login_body l_clear">
+                <div class="login_form l_float">
+                    <div class="login_top">
+                        <img src="images/logo_z.svg" alt="" class="">
+                        
+                        <div class="login_tags b_clear div-alian">
+                            <span class="top_tag l_float active div-alian">密码登录</span>
+                        </div>
+                    </div>
+                    <div class="login_con">
+                        <form name="form1" action="login.jsp" method="post" onsubmit="return check()">
+                            <div>
+                                <label for="user_name">用户名</label>
+                                <input type="text" name="username" id="user_name" placeholder="请输入你的账号">
+                                <img src="images/icons/user.svg">
+                                <p class="tips hidden">请检查您的账号</p>
+                            </div>
+                            <div>
+                                <label for="user_pwd">密码</label>
+                                <input type="password" name="password" id="user_pwd" placeholder="请输入账户密码">
+                                <img src="images/icons/lock.svg">
+                                <p class="tips hidden">请检查您的密码</p>
+                            </div>
+                            <div class="b_clear submit div-alian">
+                                
+                                <button type="submit">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+                                <p class="tips hidden">登录失败，请检查您的账户与密码</p>
+                            </div>
+                        </form>   
+                    </div>
+                </div>
+                <div class="login_ad l_float" id="AdImg">
+
+                </div>
+            </div>
+        </div>
+        <script src="js/login.js"></script>        
+    </body>
+</html>

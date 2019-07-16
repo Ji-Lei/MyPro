@@ -6,6 +6,22 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="MyPro" />
+          <element id="directory" name="lib">
+            <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6.jar" />
+            <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-tests.jar" />
+            <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-javadoc.jar" />
+            <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-sources.jar" />
+            <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-test-sources.jar" />
+          </element>
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.40-bin" />
+          <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-tests.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-javadoc.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-sources.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/commons-io-2.6/commons-io-2.6-test-sources.jar" />
+          <element id="library" level="project" name="commons-dbcp-1.4" />
         </element>
       </element>
     </root>

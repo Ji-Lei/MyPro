@@ -67,7 +67,7 @@ nav>.nav_link>ul>li>a{
 }
 
 nav>.nav_link>ul>li>a:hover{
-    color: #5E2FE7;
+    color: black;
 }
 
 nav>.nav_link>ul>li:last-child{
@@ -101,7 +101,9 @@ nav>.nav_link>ul>li:last-child{
 .container>.login_body>.login_form>.login_top>img{
     height: 40px;
 }
-
+.container>.login_body>.login_form>.login_top{
+    text-align: center;
+}
 
 .container>.login_body>.login_form>.login_top>.login_tags{
     /*    border-bottom: 2px solid #d9d9d9;*/
@@ -109,10 +111,6 @@ nav>.nav_link>ul>li:last-child{
 
 }
 
-.container>.login_body>.login_form>.login_top>.login_tags{
-    /* margin: 10px 0 20px 0; */
-
-}
 
 .container>.login_body>.login_form>.login_top>.login_tags>span{
     padding: 10px;
@@ -125,7 +123,7 @@ nav>.nav_link>ul>li:last-child{
 }
 
 .container>.login_body>.login_form>.login_top>.login_tags>.active{
-    border-bottom: 2px solid #703EFF;
+    border-bottom: 2px solid black;
 }
 
 .container>.login_body>.login_form>.login_con{
@@ -149,7 +147,7 @@ nav>.nav_link>ul>li:last-child{
     bottom: 0px;
     font-size: 12px;
     right: 0;
-    color:#5E2FE7;
+    color:black;
 }
 
 .container>.login_body>.login_form>.login_con>form>.submit>.tips{
@@ -175,7 +173,7 @@ nav>.nav_link>ul>li:last-child{
     height: 40px;
     width: 184px;
     border: none;
-    border-bottom: 2px solid #703EFF;
+    border-bottom: 2px solid black;
     color: #333;
     font-size: 16px;
     /*    position: relative;*/
@@ -195,13 +193,13 @@ nav>.nav_link>ul>li:last-child{
     width: 114px;
     outline: none;
     border: none;
-    border-bottom: 2px solid #703EFF;
+    border-bottom: 2px solid black;
     background-color: #fff;
 
 }
 
 .container>.login_body>.login_form>.login_con>form>div>button[type=submit]{
-    background-color: #703EFF;
+    background-color: black;
     width: 120px;
     border-radius:50px;
     border-bottom: none;
@@ -214,7 +212,7 @@ nav>.nav_link>ul>li:last-child{
 }
 
 .container>.login_body>.login_form>.login_con>form>div>button[type=submit]:hover{
-    background-color: #5E2FE7;
+    background-color: black;
 }
 
 .container>.login_body>.login_form>.login_con>form>div>a{
@@ -223,7 +221,7 @@ nav>.nav_link>ul>li:last-child{
 }
 .container>.login_body>.login_ad{
     width: 700px;
-    height: 558px;;
+    height: 415px;;
     overflow: hidden;
     background-image: url('../images/timg.jpg');
     background-size: cover;
@@ -246,62 +244,18 @@ nav>.nav_link>ul>li:last-child{
     left: 296px;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #703EFF;
-    color: #fff;
+    background-color: black;
+    color: black;
     font-size: 14px;
-    border: 1px solid #703EFF;
+    border: 1px solid black;
 
 }
 .container>.login_body>.login_ad>a:hover{
 
     background-color: #fff;
-    border: 1px solid #703EFF;
-    color: #703EFF;
+    border: 1px solid black;
+    color: black;
 }
-.footer{
-    font-size: 12px;
-    padding: 0 10px;
+.div-alian{
     text-align: center;
-    margin-top: 26px;
-    /* position: absolute;
-    bottom: 0;
-    left: 50% */
-    /* width: 1200px; */
-    /* margin: 20px auto; */
-    /* position: absolute;
-    bottom: 0 */
-
-
-}
-
-.footer a:link{
-    color: #999999;
-
-}
-.footer a:visited{
-    color: #999999;
-
-}
-
-.footer a:hover{
-    color: #5E2FE7;
-}
-.footer a:active{
-    color: #999999;
-
-}
-
-.footer,.footer>p,.footer a{
-    color: #999999;
-    text-decoration: none;
-
-}
-
-.footer>p{
-    margin: 5px auto 10px;
-}
-.footer>a>img{
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 4px;
 }
